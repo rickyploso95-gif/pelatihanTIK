@@ -1,17 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <title>Profil saya</title>
-     <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pelatihan TIK</title>
+    <!-- Menghubungkan file CSS eksternal untuk styling -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="kartu-profil">
-        <img src="foto-profil.jpg" alt="foto profil saya">
-        <h1>Muhammad ricky fajar adi putra</h1>
-        <p>murid smkn kabuh </p> 
-        <a href="https://www.instagram.com/rkyy.fa?stkn=MTVsNTdlbGd1NzlrMQ%3D%3D" target="_blank">Instagram</a>
-         <button id="btn">klik</button>
-  </div> 
-   <script src="script.js"></script>
+
+    <!-- Bagian Utama Konten Website -->
+    <main class="container">
+        <div class="card">
+            <!-- Foto Profil Peserta/Pengajar -->
+            <img src="foto-profil.jpg" alt="Foto Profil" class="profile-img">
+            
+            <h1>Selamat Datang di Pelatihan TIK</h1>
+            <p>Website ini dibuat sebagai bagian dari latihan dasar pemrograman web.</p>
+            
+            <!-- Tombol Interaktif -->
+            <button id="sapaButton" class="btn">Klik Sapaan</button>
+            <p id="pesanOutput" class="output-text"></p>
+        </div>
+    </main>
+
+    <!-- Menghubungkan file JavaScript eksternal untuk interaksi -->
+    <script src="script.js"></script>
 </body>
 </html>
