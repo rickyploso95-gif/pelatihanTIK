@@ -1,25 +1,79 @@
+/* Pengaturan dasar untuk seluruh elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mengatur latar belakang dan jenis huruf (font) */
 body {
-    background-color: #a1e1fc;
-    font-family: cursive, sans-serif;
-    color: #000000;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.kartu-profil {
-    width: 300px;
-    margin: 20px auto;
+/* Kotak utama (card) pembungkus konten */
+.container {
+    width: 100%;
+    max-width: 400px;
     padding: 20px;
+}
+
+.card {
     background-color: #ffffff;
+    padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.kartu-profil img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.kartu-profil {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+/* Styling untuk Foto Profil */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #007bff;
+}
+
+/* Styling untuk Judul dan Teks */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+/* Styling untuk Tombol */
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efek saat kursor menyentuh tombol */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Teks hasil interaksi JavaScript */
+.output-text {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #28a745;
 }
