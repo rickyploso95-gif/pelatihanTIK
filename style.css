@@ -13,6 +13,10 @@ kartu-profil {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
+kartu-profil {
+    text-align: center;
+}
+
 kartu-profil img {
     width: 100px;
     height: 100px;
@@ -20,6 +24,3 @@ kartu-profil img {
     margin-bottom: 10px;
 }
 
-kartu-profil {
-    text-align: center;
-}
